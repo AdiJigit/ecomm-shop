@@ -94,7 +94,7 @@ const LoginScreen = () => {
         <div className="mt-4 text-sm">
           Don&apos;t have an account? &nbsp;
           <Link
-            href="/register"
+            href={`/register?redirect=${redirect || '/'}`}
             className="text-sm font-semibold hover:underline"
           >
             Register

@@ -141,7 +141,7 @@ const PlaceOrderScreen = () => {
               </div>
             </div>
           </div>
-          <div className="card  p-5">
+          <div className="card p-5 h-max">
             <h2 className="mb-2 text-lg">Order Summary</h2>
             <ul>
               <li>

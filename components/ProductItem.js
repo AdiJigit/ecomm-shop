@@ -20,12 +20,11 @@ function ProductItem({ product }) {
           <p>{product.price}</p>
           <p>EUR</p>
         </div>
-        <button
-          className="primary-button w-full"
-          type="button"
-        >
-          <Link href={`/product/${product.slug}`}>View Product</Link>
-        </button>
+        <Link href={`/product/${product.slug}`} passHref>
+          <button className="primary-button w-full" type="button">
+            View Product
+          </button>
+        </Link>
       </div>
     </div>
   );

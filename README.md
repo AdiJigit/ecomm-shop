@@ -81,3 +81,23 @@ Descriptions
     3. display order items
     4. implement create order
 
+18. Create Order Screen
+    1. implement backend api for order details
+    2. load order data from backend
+    3. display order details
+
+19. Create Register Screen
+    1. add signup api
+    2. create register page
+    3. call api on form submit
+
+20. Pay Order By PayPal
+    1. add paypal button
+    2. handle payment
+    3. create backend api
+    4. update order state
+
+21. Create Order History Screen
+    1. create my order api
+    2. create order history component
+    3. fetch orders and display them
