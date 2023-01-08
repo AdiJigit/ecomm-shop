@@ -1,0 +1,6 @@
+{
+  "git.autorefresh": true,
+  "git.enabled": true,
+  "git.fetchOnPull": true,
+  "git.enableSmartCommit": true
+}
