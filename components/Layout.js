@@ -78,60 +78,6 @@ function Layout({ children, title }) {
                           </Link>
                         </li>
                       ))}
-                      {/* <li className="pl-10 mt-4">
-                        <Link href="">COATS | TRENCH COATS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">JACKETS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">PUFFERS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">GILETS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">SWEATERS | CARDIGANS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">HOODIES | SWEATSHIRTS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">BLAZERS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">SUITS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">SHIRTS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">T-SHIRTS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">POLO SHIRTS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">TROUSERS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">JEANS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">SHORTS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">OVERSHIRTS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">SHOES</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">BAGS | BACKPACKS</Link>
-                      </li>
-                      <li className="pl-10">
-                        <Link href="">ACCESSORIES</Link>
-                      </li> */}
                     </motion.ul>
                     <p className="px-4 pt-4 text-[14px]">NEW COLLECTION</p>
                     <p className="px-4 text-[12px]">JOIN JIGIT+</p>
@@ -151,11 +97,6 @@ function Layout({ children, title }) {
                     <p className="p-2">{session.user.name}</p>
                   </Menu.Button>
                   <Menu.Items className="absolute right-0 w-56 origin-top-right bg-white shadow-lg">
-                    <Menu.Item>
-                      <DropDownLink className="dropdown-link" href="/profile">
-                        Profile
-                      </DropDownLink>
-                    </Menu.Item>
                     <Menu.Item>
                       <DropDownLink
                         className="dropdown-link"
