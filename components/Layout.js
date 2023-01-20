@@ -57,7 +57,7 @@ function Layout({ children, title }) {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1.0 }}
                     viewport={{ once: false }}
-                    className="bg-white absolute top-0 left-0 h-screen w-[100%] sm:w-[50%] md:w-[30%]"
+                    className="bg-white absolute top-0 left-0 h-screen w-[70%] sm:w-[50%] md:w-[30%]"
                   >
                     <SlClose
                       onClick={() => setIsOpenMenu(false)}
